@@ -1,5 +1,6 @@
 # Introduction
 aes_cbc_crypto_stream is a DENO open-source library (MIT license) that codes and decodes streams according to the AES CBC algorithm.
+This package is not to be used any more. Please use deno_simple_utilities instead.
 
 # API
 ## class AES_CBC_DecryptionStream extends FixedLengthUint8ArrayTransformStream
