@@ -56,8 +56,10 @@ let decryptedText = "";
 for await (const chunk of decryptedStream) decryptedText += td.decode(chunk);
 
 console.log(decryptedText);
-This code is available at https://github.com/martinjeromelouis/AES_CBC_CryptoStream/blob/master/examples/examples.ts.
 ```
+
+This code is available at https://github.com/martinjeromelouis/AES_CBC_CryptoStream/blob/master/examples/examples.ts.
+
 # Tests
 See https://github.com/martinjeromelouis/FixedLengthUint8ArrayTransformStream/blob/master/tests/FixedLengthUint8ArrayTransformStream_test.ts
 
